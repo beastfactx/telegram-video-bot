@@ -8,7 +8,10 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN =os.getenv("5850270544:AAFEhxWNzlaTgFX_MJE3hWkrxXlO5aKhkRc")  # token comes from Render
+import os
+
+BOT_TOKEN = os.getenv("5850270544:AAGPPuZ8wHSfbewXw4vnR0JNPpD3yYtZSCQ")
+
 
 VIDEO_ID = "BAACAgUAAxkBAAMyaYJEtL-97XDB9iMJPlBzczmiZQkAAkwcAAJrfhlUcSJQJJiqAR44BA"
 
@@ -39,3 +42,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
